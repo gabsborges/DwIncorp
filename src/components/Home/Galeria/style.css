@@ -1,0 +1,123 @@
+.galeria {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.galeria-area {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.galeria-area h1 {
+    position: relative;
+    color: #fff;
+    font-size: 42px;
+    font-weight: 100;
+    margin-bottom: 70px;
+}
+
+.galeria-area h1::after {
+    content: '';
+    width: 105px;
+    height: 4px;
+    position: absolute;
+    top: 86%;
+    left: 18%;
+    background-color: #dc7a26;
+}
+
+.parent {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+}
+
+#card {
+    transform-style: preserve-3d;
+}
+
+.cardWrapper {
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.photo1 {
+    width: 85px;
+    transform: rotateY(70deg);
+    transition: all .5s;
+}
+
+.photo1 img {
+    width: 380px;
+    box-shadow: 0px 1px 5px 02px rgba(255, 255, 255, 0.75);
+    transform: rotateZ(-10deg);
+}
+
+.cardWrapper:hover {
+    transform: translateY(-30px);
+}
+
+.photo1:hover {
+    transform: rotateY(70deg);
+}
+
+.photo1 img:hover {
+    transform: rotateZ(-10deg);
+}
+
+.modalBox {
+    width: 760px;
+    position: absolute;
+    padding: 15px 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 5;
+    transition: all 0.5s;
+}
+
+.disable {
+    display: none;
+}
+
+.fa-xmark {
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+    color: #000;
+    font-size: 26px;
+    margin: 0 15px 10px 0;
+}
+
+.rec-item-wrapper {
+    background-color: transparent;
+}
+
+.rec-item-wrapper img {
+    width: 100%;
+}
+
+.galeria .rec-dot {
+    display: none;
+}
+
+.rec-arrow-right:hover:enabled {
+    box-shadow: 0 0 1px 3px #fff;
+}
+
+.rec-arrow:hover, .rec-arrow:focus {
+    box-shadow: 0 0 1px 3px #fff;
+}
+
+.rec-arrow-right:focus:enabled,
+.rec-arrow-right:hover:enabled,
+.rec-arrow-left:focus:enabled,
+.rec-arrow-left:hover:enabled {
+    background-color: #dc7a26 !important;
+}

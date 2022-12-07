@@ -1,0 +1,114 @@
+.empreendimento {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.empreendimento-area {
+    text-align: center;
+}
+
+.empreendimento-area h1 {
+    position: relative;
+    color: #fff;
+    font-size: 42px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.empreendimento-area h1::after {
+    content: '';
+    width: 105px;
+    height: 4px;
+    position: absolute;
+    top: 83%;
+    left: 46%;
+    background-color: #dc7a26;
+}
+
+.empreendimento-area p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.empreendimento-area img {
+    color: #CECCCB;
+    width: 26px;
+    margin: 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-inner {
+    margin: 20px 10px;
+    transition: 200ms ease-in;
+}
+
+.card-inner:hover {
+    transform: scale(1.1);
+}
+
+.underConstruction {
+    opacity: 40%;
+}
+
+.card-inner img {
+    width: 306px;
+    margin-bottom: 15px;
+}
+
+.card-inner-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-box-texto {
+    text-align: left;
+    margin: 0 16px 0px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-box-texto h1{
+    color: #919194;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.card-box-texto h1::after {
+    display: none;
+}
+
+.card-box-texto p{
+    letter-spacing: 4px;
+    color: #919194;
+    margin: 0;
+    padding: 0;
+    font-size: 8px;
+    text-align: left;
+}
+
+.card-box-texto span{
+    letter-spacing: 8px;
+    color: #919194;
+    margin: 0;
+    padding: 0;
+    font-size:14px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.card-box-icone i{
+    font-size: 30px;
+    color: #919194;
+    cursor: pointer;
+}

@@ -1,0 +1,38 @@
+.mainSection {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.mainSection-area {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.mainSection-area h1 {
+    font-size: 52px;
+    font-weight: 200;
+    color: #fff;
+}
+
+.mainSection-area p {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 100;
+}
+
+.mainSection-button {
+    margin-top: 40px;
+}
+
+.mainSection-button a {
+    border-bottom: 2px solid #dc7a26;
+}
+
+.mainSection-button i {
+    font-size: 12px;
+}

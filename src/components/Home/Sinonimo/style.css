@@ -1,0 +1,40 @@
+.sinonimo {
+    width: 100%;
+    margin: 0 auto;
+    background-image: url('../../../../public/4-desk.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sinonimo-area {
+    width: 80%;
+    height: 70vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sinonimo-area h1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+
+.sinonimo-area p {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.sinonimo-button {
+    margin-top: 50px;
+}
+
+.sinonimo-button a {
+    font-weight: 300;
+    border-bottom: 3px solid #dc7a26;
+    padding-bottom: 2px;
+}

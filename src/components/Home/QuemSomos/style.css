@@ -1,0 +1,62 @@
+.quemSomos {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.quemSomos-area {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.quemSomos-texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.quemSomos-texto h1 {
+    position: relative;
+    color: #fff;
+    font-size: 42px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.quemSomos-texto h1::after {
+    content: '';
+    width: 178px;
+    height: 4px;
+    position: absolute;
+    top: 58px;
+    left: 0;
+    background-color: #dc7a26;
+}
+
+.quemSomos-texto p {
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+
+.qemSomos-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.qemSomos-button i {
+    color: #fff;
+    font-size: 30px;
+    margin: 0 18px 0 0;
+}
+
+.qemSomos-button p {
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0;
+    font-size: 20px;
+}

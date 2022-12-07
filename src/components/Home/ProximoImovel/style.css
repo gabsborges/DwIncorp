@@ -1,0 +1,57 @@
+.proximoImovel {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.proximoImovel h1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 34px;
+    margin-bottom: 5px;
+}
+
+.proximoImovel p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.proximoImovel-area {
+    display: flex;
+    height: 70vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.proximoImovel-icons {
+    display: flex;
+    margin-top: 20px;
+    gap: 60px;
+}
+
+.iconsImovel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 14px 20px;
+    gap: 30px 0;
+    border: 2px solid #090909;
+    cursor: pointer;
+}
+
+.iconsImovel:hover {
+    border: 2px solid #212121;
+}
+
+.iconsImovel i {
+    color: #fff;
+    font-size: 28px;
+}
+
+.iconsImovel h3 {
+    color: #fff;
+    font-weight: 400;
+}
